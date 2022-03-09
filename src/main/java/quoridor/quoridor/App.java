@@ -1,15 +1,13 @@
 package quoridor.quoridor;
 
-import java.util.Arrays;
+import quoridor.quoridor.entities.GameBoard;
 
 /**
- * Hello world!
  *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+public class App {
+	public static void main(String[] args) {
+		GameBoard gameBoard = new GameBoard();
+		System.out.println(gameBoard);
+	}
 }
